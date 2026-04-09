@@ -1,7 +1,6 @@
-num = input("Enter any number")
 sum = 0
 total = 0
-
+num = input("Enter any number")
 for digits in num():
     sum = sum + digits
     total = total + int(digits)
