@@ -1,4 +1,9 @@
-def add(a, b):
-    return a + b
+num = input("Enter any number")
+sum = 0
+total = 0
 
-print("Sum:", add(5, 3))
+for digits in num():
+    sum = sum + digits
+    total = total + int(digits)
+print("sum of numbers", sum)
+print("total number of digits", total)
